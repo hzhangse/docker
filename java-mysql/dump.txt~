@@ -1,0 +1,1 @@
+./mysqldump --default-character-set='utf8' --host=192.168.16.60 -uroot -p123456 --opt portal| mysql --host=192.168.16.72 -uroot -p123456 --default-character-set='utf8' -C protal_test

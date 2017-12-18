@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo docker run --name mysql --net shadownet --ip 172.19.0.10 -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
